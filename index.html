@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard avec HTML + Sass</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Mon Dashboard</h2>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Statistiques</a></li>
+        <li><a href="#">Paramètres</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <header>
+      <h1>Statistiques en direct</h1>
+    </header>
+
+    <section class="cards">
+      <div class="card" id="card1">
+        <h3>Cas confirmés</h3>
+        <p class="value">...</p>
+      </div>
+      <div class="card" id="card2">
+        <h3>Décès</h3>
+        <p class="value">...</p>
+      </div>
+      <div class="card" id="card3">
+        <h3>Guérisons</h3>
+        <p class="value">...</p>
+      </div>
+    </section>
+
+    <section class="chart-section">
+  <h2>Évolution des cas COVID</h2>
+  <canvas id="casesChart"></canvas>
+  </section>
+  </main>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

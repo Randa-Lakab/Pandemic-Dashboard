@@ -1,0 +1,98 @@
+$primary: #2e7d32;
+$secondary: #f4f4f4;
+$card-bg: #fff;
+$shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  background: $secondary;
+}
+
+.sidebar {
+  width: 220px;
+  background: $primary;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin: 15px 0;
+
+      a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+
+  header {
+    margin-bottom: 20px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+
+    .card {
+      background: $card-bg;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: $shadow;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    h3 {
+    margin-bottom: 10px;
+    }
+
+    .value {
+    font-size: 24px;
+    font-weight: bold;
+    color: $primary;
+    }
+ } 
+}
+}
+
+.chart-section {
+  margin-top: 40px;
+  background: $card-bg;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: $shadow;
+
+  h2 {
+    margin-bottom: 20px;
+    color: $primary;
+    text-align: center;
+  }
+
+  canvas {
+    width: 100% !important;
+    height: 400px !important;
+  }
+}
