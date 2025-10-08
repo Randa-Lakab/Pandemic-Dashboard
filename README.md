@@ -15,7 +15,7 @@ Built with HTML, Sass (SCSS), JavaScript, and Chart.js.
 -  Dynamic chart (Chart.js) showing data for the last 10 days
 -  Modern design with Sass and hover animations
 
-##  Project Structure
+###  Project Structure
 covid19-dashboard/ │── index.html      # Main page │── style.scss      # Sass file │── style.css       # Compiled CSS file │── script.js       # Logic & API calls
 Copier le code
 
