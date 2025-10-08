@@ -6,7 +6,7 @@ Built with HTML, Sass (SCSS), JavaScript, and Chart.js.
 ### 🚀 Demo
  [Live Demo](https://randa-lakab.github.io/Pandemic-Dashboard/)
 
-##  Features
+###  Features
 -  Simple and responsive sidebar  
 -  Interactive cards showing:
   - Confirmed cases
