@@ -31,5 +31,5 @@ sass style.scss style.css
    ```
 3. Open index.html in your browser.
 
-## 🌍 API Used
+### 🌍 API Used
 Data provided by the free public API [Covid-19 API](https://disease.sh/v3/covid-19/all).
