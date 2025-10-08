@@ -19,7 +19,7 @@ Built with HTML, Sass (SCSS), JavaScript, and Chart.js.
 covid19-dashboard/ │── index.html      # Main page │── style.scss      # Sass file │── style.css       # Compiled CSS file │── script.js       # Logic & API calls
 Copier le code
 
-##  Installation
+###  Installation
 1. Clone the repo:
 ```bash
    git clone https://github.com/YOUR-USERNAME/covid19-dashboard.git
