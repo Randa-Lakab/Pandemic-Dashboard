@@ -3,7 +3,7 @@
 An interactive dashboard displaying real-time global COVID-19 statistics.  
 Built with HTML, Sass (SCSS), JavaScript, and Chart.js.
 
-## 🚀 Demo
+### 🚀 Demo
  [Live Demo](https://randa-lakab.github.io/Pandemic-Dashboard/)
 
 ##  Features
